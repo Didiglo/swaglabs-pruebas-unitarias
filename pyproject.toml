@@ -1,0 +1,10 @@
+[project]
+name = "swaglabs-pruebas-unitarias"
+version = "1.0.0"
+description = "Pruebas unitarias del checkout de Swag Labs - TI3-312 Actividad 6"
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-v"
